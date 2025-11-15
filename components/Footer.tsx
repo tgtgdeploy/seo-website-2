@@ -14,7 +14,7 @@ export default function Footer() {
               <span className="text-xl font-bold">Telegram</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Telegram中文版是一款功能丰富的即时通讯应用，提供端到端加密的私密聊天，支持创建大型群组和频道。
+              Telegram Trend Guide - 探索Telegram最新趋势，分享热门玩法和高级技巧，让您紧跟Telegram发展动态。
             </p>
           </div>
 
@@ -50,7 +50,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p className="text-sm">Copyright@2025 Telegram中文版 &amp; All Rights Reserved. <Link href="/sitemap.xml" className="hover:text-white transition">SITEMAP</Link></p>
+          <p className="text-sm">Copyright@2025 Telegram Trend Guide &amp; All Rights Reserved. <Link href="/sitemap.xml" className="hover:text-white transition">SITEMAP</Link></p>
         </div>
       </div>
     </footer>
