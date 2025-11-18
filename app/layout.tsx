@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import Header from '@repo/ui-components/components/Header'
-import Footer from '@repo/ui-components/components/Footer'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 import { getDomainSEOMetadata } from '@/lib/get-website-by-domain'
 
 // 动态生成SEO元数据，根据访问的域名

@@ -22,19 +22,19 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-lg mb-4">快速链接</h4>
             <ul className="space-y-2">
-              <li><Link href="/download" className="text-gray-400 hover:text-white transition text-sm">应用下载</Link></li>
+              <li><Link href="/" className="text-gray-400 hover:text-white transition text-sm">首页</Link></li>
               <li><Link href="/blog" className="text-gray-400 hover:text-white transition text-sm">博客文章</Link></li>
-              <li><Link href="/faq" className="text-gray-400 hover:text-white transition text-sm">常见问题</Link></li>
+              <li><Link href="/about" className="text-gray-400 hover:text-white transition text-sm">关于我们</Link></li>
             </ul>
           </div>
 
-          {/* Platform Support */}
+          {/* Legal */}
           <div>
-            <h4 className="font-bold text-lg mb-4">平台支持</h4>
+            <h4 className="font-bold text-lg mb-4">法律信息</h4>
             <ul className="space-y-2">
-              <li><Link href="/download" className="text-gray-400 hover:text-white transition text-sm">Android / iOS</Link></li>
-              <li><Link href="/download" className="text-gray-400 hover:text-white transition text-sm">Windows / Mac / Linux</Link></li>
-              <li><a href="https://web.telegram.org/" className="text-gray-400 hover:text-white transition text-sm" target="_blank" rel="noopener noreferrer">Web 版本</a></li>
+              <li><Link href="/privacy" className="text-gray-400 hover:text-white transition text-sm">隐私政策</Link></li>
+              <li><Link href="/terms" className="text-gray-400 hover:text-white transition text-sm">服务条款</Link></li>
+              <li><a href="https://telegram.org/" className="text-gray-400 hover:text-white transition text-sm" target="_blank" rel="noopener noreferrer">Telegram官网</a></li>
             </ul>
           </div>
 

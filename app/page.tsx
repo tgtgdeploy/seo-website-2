@@ -4,6 +4,7 @@ import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Services from '@/components/Services'
 import Features from '@/components/Features'
+import FAQSection from '@/components/FAQSection'
 import Footer from '@/components/Footer'
 import { headers } from 'next/headers'
 import { getDomainConfigFromList, calculateTagMatchScoreFromDB } from '@repo/shared'
@@ -126,6 +127,11 @@ export default async function Home() {
           )}
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <div id="faq">
+        <FAQSection />
+      </div>
 
       <Services />
       <Footer />

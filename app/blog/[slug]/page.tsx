@@ -1,4 +1,5 @@
 import { prisma } from '@repo/database'
+
 import { notFound } from 'next/navigation'
 import { format } from 'date-fns'
 import type { Metadata } from 'next'

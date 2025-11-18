@@ -23,17 +23,17 @@ export default function Header() {
             <Link href="/" className="text-gray-700 hover:text-telegram-blue transition">
               首页
             </Link>
-            <Link href="/faq" className="text-gray-700 hover:text-telegram-blue transition">
-              FAQ
-            </Link>
             <Link href="/blog" className="text-gray-700 hover:text-telegram-blue transition">
               博客
             </Link>
-            <Link href="/download" className="text-gray-700 hover:text-telegram-blue transition">
-              下载
+            <Link href="/#faq" className="text-gray-700 hover:text-telegram-blue transition">
+              FAQ
             </Link>
-            <Link href="/download" className="bg-telegram-blue text-white px-6 py-2 rounded-full hover:bg-telegram-dark transition inline-block">
-              开始安装
+            <Link href="/about" className="text-gray-700 hover:text-telegram-blue transition">
+              关于我们
+            </Link>
+            <Link href="/privacy" className="text-gray-700 hover:text-telegram-blue transition">
+              隐私政策
             </Link>
           </div>
 
@@ -59,17 +59,17 @@ export default function Header() {
               <Link href="/" className="text-gray-700 hover:text-telegram-blue transition" onClick={() => setIsMenuOpen(false)}>
                 首页
               </Link>
-              <Link href="/faq" className="text-gray-700 hover:text-telegram-blue transition" onClick={() => setIsMenuOpen(false)}>
-                FAQ
-              </Link>
               <Link href="/blog" className="text-gray-700 hover:text-telegram-blue transition" onClick={() => setIsMenuOpen(false)}>
                 博客
               </Link>
-              <Link href="/download" className="text-gray-700 hover:text-telegram-blue transition" onClick={() => setIsMenuOpen(false)}>
-                下载
+              <Link href="/#faq" className="text-gray-700 hover:text-telegram-blue transition" onClick={() => setIsMenuOpen(false)}>
+                FAQ
               </Link>
-              <Link href="/download" className="bg-telegram-blue text-white px-6 py-2 rounded-full hover:bg-telegram-dark transition inline-block text-center">
-                开始安装
+              <Link href="/about" className="text-gray-700 hover:text-telegram-blue transition" onClick={() => setIsMenuOpen(false)}>
+                关于我们
+              </Link>
+              <Link href="/privacy" className="text-gray-700 hover:text-telegram-blue transition" onClick={() => setIsMenuOpen(false)}>
+                隐私政策
               </Link>
             </div>
           </div>

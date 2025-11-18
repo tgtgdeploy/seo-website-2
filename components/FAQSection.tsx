@@ -165,21 +165,21 @@ export default function FAQSection() {
             </div>
           ))}
 
-          {/* Download CTA */}
+          {/* CTA */}
           <div className="mt-16 bg-gradient-to-r from-telegram-blue to-telegram-light text-white rounded-2xl p-8 text-center">
-            <h3 className="text-2xl font-bold mb-4">准备好开始使用Telegram了吗？</h3>
+            <h3 className="text-2xl font-bold mb-4">想了解更多关于Telegram的信息？</h3>
             <p className="mb-6 text-lg opacity-90">
-              免费下载，立即体验安全、快速的即时通讯
+              探索我们的博客，获取最新资讯和使用技巧
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="/download"
+                href="/blog"
                 className="bg-white text-telegram-blue px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition inline-block"
               >
-                立即下载
+                阅读博客
               </a>
               <a
-                href="/blog"
+                href="/about"
                 className="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-telegram-blue transition inline-block"
               >
                 查看使用教程
