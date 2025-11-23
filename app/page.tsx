@@ -1,11 +1,9 @@
 import { prisma } from '@repo/database'
 import Link from 'next/link'
-import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Services from '@/components/Services'
 import Features from '@/components/Features'
 import FAQSection from '@/components/FAQSection'
-import Footer from '@/components/Footer'
 import { headers } from 'next/headers'
 import { getDomainConfigFromList, calculateTagMatchScoreFromDB } from '@repo/shared'
 
@@ -81,7 +79,6 @@ export default async function Home() {
   const posts = await getRecentPosts()
   return (
     <main className="min-h-screen">
-      <Header />
       <Hero />
 
       {/* Features Section - 为什么选择Telegram */}
@@ -134,7 +131,6 @@ export default async function Home() {
       </div>
 
       <Services />
-      <Footer />
     </main>
   )
 }
