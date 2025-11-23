@@ -24,7 +24,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><Link href="/" className="text-gray-400 hover:text-white transition text-sm">首页</Link></li>
               <li><Link href="/blog" className="text-gray-400 hover:text-white transition text-sm">博客文章</Link></li>
-              <li><a href={process.env.NEXT_PUBLIC_DOWNLOAD_URL || 'https://tg-download.netlify.app'} className="text-gray-400 hover:text-white transition text-sm" target="_blank" rel="noopener noreferrer">下载 Telegram</a></li>
+              <li><a href={process.env.NEXT_PUBLIC_DOWNLOAD_URL || 'https://venerable-concha-42e618.netlify.app'} className="text-gray-400 hover:text-white transition text-sm" target="_blank" rel="noopener noreferrer">下载 Telegram</a></li>
               <li><Link href="/about" className="text-gray-400 hover:text-white transition text-sm">关于我们</Link></li>
             </ul>
           </div>

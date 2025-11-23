@@ -36,7 +36,7 @@ export default function Header() {
               隐私政策
             </Link>
             <a
-              href={process.env.NEXT_PUBLIC_DOWNLOAD_URL || 'https://tg-download.netlify.app'}
+              href={process.env.NEXT_PUBLIC_DOWNLOAD_URL || 'https://venerable-concha-42e618.netlify.app'}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-telegram-blue text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition font-semibold"
@@ -80,7 +80,7 @@ export default function Header() {
                 隐私政策
               </Link>
               <a
-                href={process.env.NEXT_PUBLIC_DOWNLOAD_URL || 'https://tg-download.netlify.app'}
+                href={process.env.NEXT_PUBLIC_DOWNLOAD_URL || 'https://venerable-concha-42e618.netlify.app'}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-telegram-blue text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition font-semibold text-center"
