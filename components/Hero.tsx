@@ -28,7 +28,22 @@ export default function Hero() {
             安全、快速、强大的聊天交友工具
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto mt-12">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+            <Link
+              href="/download"
+              className="bg-telegram-blue text-white px-8 py-4 rounded-xl text-lg font-bold hover:bg-blue-600 transition shadow-lg"
+            >
+              立即下载 Telegram
+            </Link>
+            <Link
+              href="/blog"
+              className="bg-white text-telegram-blue px-8 py-4 rounded-xl text-lg font-bold hover:bg-gray-100 transition border-2 border-telegram-blue"
+            >
+              了解更多
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
             <div className="bg-white p-6 rounded-xl shadow-md">
               <div className="text-telegram-blue text-4xl mb-3">🔒</div>
               <h3 className="font-bold text-lg mb-2">安全加密</h3>

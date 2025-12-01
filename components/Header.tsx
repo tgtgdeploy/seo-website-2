@@ -35,14 +35,12 @@ export default function Header() {
             <Link href="/privacy" className="text-gray-700 hover:text-telegram-blue transition">
               隐私政策
             </Link>
-            <a
-              href={process.env.NEXT_PUBLIC_DOWNLOAD_URL || 'https://venerable-concha-42e618.netlify.app'}
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/download"
               className="bg-telegram-blue text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition font-semibold"
             >
               下载 Telegram
-            </a>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -79,15 +77,13 @@ export default function Header() {
               <Link href="/privacy" className="text-gray-700 hover:text-telegram-blue transition" onClick={() => setIsMenuOpen(false)}>
                 隐私政策
               </Link>
-              <a
-                href={process.env.NEXT_PUBLIC_DOWNLOAD_URL || 'https://venerable-concha-42e618.netlify.app'}
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                href="/download"
                 className="bg-telegram-blue text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition font-semibold text-center"
                 onClick={() => setIsMenuOpen(false)}
               >
                 下载 Telegram
-              </a>
+              </Link>
             </div>
           </div>
         )}
